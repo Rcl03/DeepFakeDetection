@@ -1,6 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
+import os
 
 def show():
     # Model 1 metrics
