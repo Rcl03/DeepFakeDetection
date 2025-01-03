@@ -11,8 +11,7 @@ def show():
         "F1 Score": 0.75,
         "ROC AUC": 0.87
     }
-    model_1_cm_path = "D:\DSP\Streamlit\pages\Model 1 Consufion matrix.png"
-
+    model_1_cm_path = os.path.join(os.path.dirname(__file__), "Model 1 Confusion matrix.png")
     # Model 2 metrics
     model_2_metrics = {
         "Accuracy": 77.12,
@@ -21,7 +20,7 @@ def show():
         "F1 Score": 0.78,
         "ROC AUC": 0.89
     }
-    model_2_cm_path = "D:\DSP\Streamlit\pages\Model 2 confusion matrix.png"
+    model_2_cm_path = os.path.join(os.path.dirname(__file__), "Model 2 confusion matrix.png")
 
     # Page Title
     st.title("Model Evaluation Metrics")
