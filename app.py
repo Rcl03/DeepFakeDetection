@@ -5,7 +5,7 @@ import Playground
 
 # Set page configuration
 st.set_page_config(
-    page_title="Deepfake Faces Detection Project",
+    page_title="FakeXpose",
     page_icon="🤖",
     layout="wide",
 )
@@ -20,8 +20,8 @@ page = st.sidebar.radio(
 # Load corresponding page based on selection
 if page == "Overview":
     # Main title
-    st.title("Deepfake Faces Detection Project")
-    st.subheader("Multi-Face Forgery Detection")
+    st.title("FakeXpose")
+    st.subheader("Deepfake Faces Detection Project")
 
     # Introduction section
     with st.container():
